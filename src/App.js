@@ -6,7 +6,7 @@ import AddCitizenModal from './components/AddCitizenModal';
 import CitizenDetail from './components/CitizenDetail';
 import CitizenFilter from './components/CitizenFilter';
 
-// Регистрация компонентов Chart.js
+
 ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
 
 function App() {
@@ -106,10 +106,8 @@ function App() {
 
             <Route path="/citizens" element={
               <>
-                {/* Форма фильтрации */}
                 <CitizenFilter filter={filter} setFilter={setFilter} />
 
-                {/* Citizen Cards */}
                 <section>
                   <h2 className="text-3xl font-bold text-gray-900 mb-6">Записи о Гражданах</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

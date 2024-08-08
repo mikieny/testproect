@@ -84,7 +84,6 @@ function AddCitizenModal({ onClose, onAddCitizen }) {
             </select>
             </div>
 
-            {/* Поля для добавления членов семьи */}
             <div className="mb-4">
             <h3 className="text-lg font-bold text-gray-700">Члены Семьи</h3>
             {family.map((member, index) => (
@@ -114,7 +113,6 @@ function AddCitizenModal({ onClose, onAddCitizen }) {
             </button>
             </div>
 
-            {/* Поля для добавления образования */}
             <div className="mb-4">
             <h3 className="text-lg font-bold text-gray-700">Образование</h3>
             {education.map((edu, index) => (

@@ -19,7 +19,7 @@ function CitizenDetail({ citizens }) {
             <p className="text-gray-600">Статус: {citizen.status}</p>
         </div>
 
-        {/* Члены семьи */}
+
         <section className="mt-6">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Члены Семьи</h3>
             <ul className="list-disc list-inside">
@@ -33,7 +33,6 @@ function CitizenDetail({ citizens }) {
             </ul>
         </section>
 
-        {/* Образование */}
         <section className="mt-6">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">Образование</h3>
             <ul className="list-disc list-inside">
